@@ -1,0 +1,55 @@
+/* App.css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+  .directoryBox{
+
+    h1{
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    ul{
+        width: 95%;
+    margin: 20px auto;
+    }
+    .user-card {
+        border: 1px solid #ccc;
+        margin: 10px;
+        padding: 10px;
+        text-align: left;
+
+        .cardDetails{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;   
+            
+            h2,p{
+                font-size: 1.5rem;
+            }
+        }
+      }
+      .btn{
+        padding: 10px 30px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    font-size: 1rem;
+    border-radius: 8px;
+    margin: 10px 0;
+      }
+      .user-details{
+        margin: 10px 30px;
+      }
+      .post {
+        margin: 16px 0px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 10px 20px;
+        height: 219px;
+        border-radius: 8px;
+        text-align: center;
+      }
+  }
+  
+  
